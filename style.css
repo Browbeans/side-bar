@@ -31,7 +31,6 @@ body {
 .sidebar i {
     color: white;
     font-size: 1rem;
-    margin-top: 1rem;
 }
 
 .profile {
@@ -39,8 +38,13 @@ body {
     margin: 1rem;
 }
 
+.profile i {
+    margin-left: 2rem;
+    font-size: 1.3rem;
+}
+
 .profile img {
-    width: 30%; 
+    width: 5rem; 
     margin-right: 2rem; 
 }
 
@@ -52,22 +56,19 @@ body {
 .info div {
     margin: 1rem;
 }
+
 .info i {
     margin-right: 2rem;
+}
+.info div {
+    height: 2rem;
+    display: flex;
+    align-items: center;
 }
 
 .settings {
     width: 13rem;
 }
 
-@media (min-width: 1300px) {
-    .sidebar {
-        margin: 0;
-    }
-
-    .sidebar p, h3 {
-        display: none;
-    }
-}
 
 

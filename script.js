@@ -27,23 +27,21 @@ function startSlideShow(){
 }
 
 
-document.getElementById("rightclick").onclick = function () {
+/*document.getElementById("rightclick").onclick = function () {
     side.style.marginLeft = "0%"
 }
 
 document.getElementById("toggleAway").onclick = function (){
     side.style.marginLeft = "-30%"
     side.style.transition ="all 500ms"
-}
+}*/
 
 window.onresize = function() {
     if(window.innerWidth > 1200){
-        side.style.width = "4rem" 
-        side.style.marginLeft = "0"
+        side.style.width = "5.3rem" 
     }
     else if (window.innerWidth < 1200) { 
         side.style.width = "15rem"
-        side.style.marginLeft = "0"
     }
 }
 
@@ -53,6 +51,6 @@ side.onmouseover = function() {
 
 side.onmouseout = function() {
     if(window.innerWidth > 1200){
-    side.style.width = "4rem"
+    side.style.width = "5.3rem"
     } 
 }

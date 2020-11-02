@@ -36,16 +36,20 @@ img {
     opacity: 1;
 }
 
+
 .sidebar{
     position: fixed;
     width: 15rem;
     height: 100%;
     background: black;
+    top: 0;
+    left: 0;
 
     transition: all 300ms;
     flex-direction: column; 
     color: white;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .sidebar i {
@@ -69,7 +73,9 @@ img {
 
 .profile img {
     width: 5rem; 
+    height: auto;
     margin-right: 2rem; 
+    opacity: 1;
 }
 
 .info {
@@ -84,6 +90,7 @@ img {
 .info i {
     margin-right: 2rem;
 }
+
 .info div {
     height: 2rem;
     display: flex;
@@ -93,6 +100,5 @@ img {
 .settings {
     width: 13rem;
 }
-
 
 
